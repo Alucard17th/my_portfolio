@@ -78,6 +78,9 @@
 
     <!-- NOTICE: You can use the _analytics.html partial to include production code specific code & trackers -->
 
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
+
 </head>
 
 <body>
@@ -124,7 +127,7 @@
     <main>
 
         <!-- Hero -->
-        <section class="section section bg-soft pb-1 overflow-hidden z-2">
+        <section class="section section bg-soft pb-1 overflow-hidden z-2" data-aos="fade-up">
             <div class="container z-2">
                 <div class="row justify-content-center text-center pt-6">
                     <div class="col-lg-8 col-xl-8">
@@ -157,7 +160,7 @@
         </section>
 
         <!-- TECHNOLOGIES -->
-        <section class="section section-lg" id="technologies">
+        <section class="section section-lg" id="technologies" data-aos="fade-left">
             <div class="container">
                 <div class="row">
                     <div class="col text-center">
@@ -250,7 +253,7 @@
         <!-- END TECHNOLOGIES -->
 
         <!-- EDUCATION -->
-        <div class="section bg-primary pt-0 section-lg" id="education">
+        <div class="section bg-primary pt-0 section-lg" id="education" data-aos="fade-right">
             <div class="container">
                 <!-- Title -->
                 <div class="row">
@@ -330,7 +333,7 @@
         <!-- END EDUCATION -->
 
         <!-- PROJECTS -->
-        <div class="section bg-primary pt-0 section-lg" id="projects">
+        <div class="section bg-primary pt-0 section-lg" id="projects" data-aos="fade-up-left">
             <div class="container">
                 <!-- Title -->
                 <div class="row">
@@ -357,7 +360,7 @@
         <!-- END PROJECTS -->
 
         <!-- TESTIMONIALS -->
-        <div class="section bg-primary pt-0 section-lg">
+        <div class="section bg-primary pt-0 section-lg" data-aos="zoom-in">
             <div class="container">
                 <!-- Title -->
                 <div class="row">
@@ -414,7 +417,7 @@
         <!-- END TESTIMONIALS -->
 
         <!-- CALL TO ACTION -->
-        <div class="section section-lg pt-0 mt-0 pb-5" id="contact">
+        <div class="section section-lg pt-0 mt-0 pb-5" id="contact" data-aos="zoom-in">
             <div class="container">
                 <!-- Title -->
                 <div class="row">
@@ -465,23 +468,23 @@
                                         </div>
                                     </div>
                                     <div class="col-12 col-md-6 mt-4 mt-md-0 text-md-right">
-                                        <a href="#" class="btn btn-primary mr-2">
+                                        <a href="https://www.linkedin.com/in/noureddine-eddallal-03aba3182/" class="btn btn-primary mr-2">
                                             <span class="mr-1">
                                                 <span class="fab fa-linkedin"></span>
                                             </span>
                                             Linkedin
                                         </a>
-                                        <a href="#" class="btn btn-primary mr-2">
+                                        <a href="https://www.facebook.com/nordin.eddallal/" class="btn btn-primary mr-2">
                                             <span class="mr-1">
                                                 <span class="fab fa-facebook"></span>
                                             </span>
                                             Facebook
                                         </a>
-                                        <a href="#" class="btn btn-primary">
+                                        <a href="https://github.com/Alucard17th" class="btn btn-primary">
                                             <span class="mr-1">
-                                                <span class="fab fa-google"></span>
+                                                <span class="fab fa-github"></span>
                                             </span>
-                                            Gmail
+                                            GitHub
                                         </a>
                                     </div>
 
@@ -503,21 +506,21 @@
                 <div class="col d-flex justify-content-center">
                     <ul class="d-flex list-unstyled mb-5 mb-lg-0">
                         <li class="mr-2">
-                            <a href="https://twitter.com/themesberg" target="_blank"
-                                class="btn btn-icon-only btn-pill btn-primary" aria-label="twitter social link"
-                                data-toggle="tooltip" data-placement="top" title="Follow @themesberg on Twitter">
-                                <span aria-hidden="true" class="fab fa-twitter"></span>
+                            <a href="https://www.linkedin.com/in/noureddine-eddallal-03aba3182/" target="_blank"
+                                class="btn btn-icon-only btn-pill btn-primary" aria-label="linkedin social link"
+                                data-toggle="tooltip" data-placement="top" title="Follow @nrdDll on Linkedin">
+                                <span aria-hidden="true" class="fab fa-linkedin"></span>
                             </a>
                         </li>
                         <li class="mr-2">
-                            <a href="https://www.facebook.com/themesberg/" target="_blank"
+                            <a href="https://www.facebook.com/nordin.eddallal/" target="_blank"
                                 class="btn btn-icon-only btn-pill btn-primary" aria-label="facebook social link"
-                                data-toggle="tooltip" data-placement="top" title="Like @themesberg on Facebook">
+                                data-toggle="tooltip" data-placement="top" title="Like @nrdDll on Facebook">
                                 <span aria-hidden="true" class="fab fa-facebook"></span>
                             </a>
                         </li>
                         <li class="mr-2">
-                            <a href="https://github.com/themesberg" target="_blank"
+                            <a href="https://github.com/Alucard17th" target="_blank"
                                 class="btn btn-icon-only btn-pill btn-primary" aria-label="github social link"
                                 data-toggle="tooltip" data-placement="top" title="Open source projects">
                                 <span aria-hidden="true" class="fab fa-github"></span>
@@ -557,6 +560,17 @@
 
     <!-- Neumorphism JS -->
     <script src="./assets/js/neumorphism.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000,  // Animation duration
+            easing: 'ease-in-out',  // Animation easing
+            once: true,  // Only animate once
+            mirror: true,
+            anchorPlacement: 'bottom-bottom',
+        });
+    </script>
 </body>
 
 </html>
