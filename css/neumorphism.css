@@ -32301,4 +32301,14 @@ article a:hover {
     font-weight: bold; /* Optionally, make the text bold */
     /* You can add more styling as needed */
   }
+
+  #hero{
+    /* background-image: url(https://media3.giphy.com/media/LTGtXvYdIIu67XMIYF/giphy.gif?cid=ecf05e472zom3mog7wn66rfpizgmneh79ckb0mlv2xqhh5fb&ep=v1_gifs_search&rid=giphy.gif&ct=g); */
+    /* background-size: contain; */
+  }
+
+  #particles-js{
+    position: absolute;
+    width:100%;
+  }
   

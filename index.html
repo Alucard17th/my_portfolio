@@ -82,7 +82,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
 
     <style>
-        body{
+        body {
             overflow-x: hidden;
         }
     </style>
@@ -133,7 +133,9 @@
     <main>
 
         <!-- Hero -->
-        <section class="section section bg-soft pb-1 overflow-hidden z-2" data-aos="fade-up">
+        <section class="section section bg-soft pb-1 overflow-hidden z-2" data-aos="fade-up" id="hero">
+            <div id="particles-js">
+            </div>
             <div class="container z-2">
                 <div class="row justify-content-center text-center pt-6">
                     <div class="col-lg-8 col-xl-8">
@@ -474,13 +476,15 @@
                                         </div>
                                     </div>
                                     <div class="col-12 col-md-6 mt-4 mt-md-0 text-md-right">
-                                        <a href="https://www.linkedin.com/in/noureddine-eddallal-03aba3182/" class="btn btn-primary mr-2">
+                                        <a href="https://www.linkedin.com/in/noureddine-eddallal-03aba3182/"
+                                            class="btn btn-primary mr-2">
                                             <span class="mr-1">
                                                 <span class="fab fa-linkedin"></span>
                                             </span>
                                             Linkedin
                                         </a>
-                                        <a href="https://www.facebook.com/nordin.eddallal/" class="btn btn-primary mr-2">
+                                        <a href="https://www.facebook.com/nordin.eddallal/"
+                                            class="btn btn-primary mr-2">
                                             <span class="mr-1">
                                                 <span class="fab fa-facebook"></span>
                                             </span>
@@ -577,6 +581,18 @@
             anchorPlacement: 'bottom-bottom',
         });
     </script>
+
+    <script src="
+    https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js
+    "></script>
+    <script>
+        $(document).ready(function () {
+            particlesJS.load('particles-js', 'assets/particles.json', function () {
+                console.log('callback - particles.js config loaded');
+            });
+        })
+    </script>
+
 </body>
 
 </html>
