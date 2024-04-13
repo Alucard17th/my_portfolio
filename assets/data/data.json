@@ -2,7 +2,7 @@
     {
         "id": "1",
         "name": "COD Parcel",
-        "description": "This is sample data #1",
+        "description": "A trusted and reliable logistics company dedicated to providing top-notch parcel delivery services.",
         "Image" : "codparcel.png",
         "url" : "https://www.codparcel.com/",
         "categorie": "Laravel",
@@ -12,7 +12,7 @@
     {
         "id": "2",
         "name": "ZiCheck",
-        "description": "This is sample data #2",
+        "description": "Empowers The first engineering vehicle inspection center in Oman, to efficiently manage its operations, ensuring precision, reliability, and compliance with industry standards.",
         "Image" : "zicheck.png",
         "url" : "https://zicheckoman.com/",
         "categorie": "Laravel",
@@ -22,7 +22,7 @@
     {
         "id": "3",
         "name": "CAR4U",
-        "description": "This is sample data #3",
+        "description": "Car rental in Egypt it delivers a safe and seamless process for car owners to make passive income from the cars they own.",
         "Image" : "car4u.png",
         "url" : "https://car4u-eg.com/",
         "categorie": "Laravel",
@@ -31,21 +31,59 @@
     ,
     {
         "id": "4",
-        "name": "HTML to IMG",
-        "description": "This is sample data #4",
-        "Image" : "htmltoimg.png",
-        "url" : "https://github.com/Alucard17th?tab=repositories",
-        "categorie": "Javascript",
-        "technologie": "VueJs"
+        "name": "Big Place",
+        "description": "BIG PLACE was born from the idea of creating a unique space where candidates and recruiters can easily connect, bypassing the constraints of traditional job searches.",
+        "Image" : "bigplace.png",
+        "url" : "https://alik128.sg-host.com/",
+        "categorie": "Laravel",
+        "technologie": "Laravel"
     }
     ,
     {
         "id": "5",
-        "name": "UPS Parcel",
-        "description": "This is sample data #4",
-        "Image" : "htmltoimg.png",
+        "name": "Aji Ntbadlo",
+        "description": "BIG PLACE was born from the idea of creating a unique space where candidates and recruiters can easily connect, bypassing the constraints of traditional job searches.",
+        "Image" : "ajintbadlo.png",
+        "url" : "https://jjtroc.chickenkiller.com/",
+        "categorie": "Laravel",
+        "technologie": "Laravel"
+    }
+    ,
+    {
+        "id": "6",
+        "name": "Todo",
+        "description": "A simple to-do list app.",
+        "Image" : "todo.png",
+        "url" : "https://github.com/Alucard17th/DynaBloggy",
+        "categorie": "Javascript",
+        "technologie": "VueJS, Strapi"
+    }
+    ,
+    {
+        "id": "7",
+        "name": "WP NFT Creator",
+        "description": "Wordpress Plugin for minting NFTs directly from your website.",
+        "Image" : "wpnftor.png",
         "url" : "https://github.com/Alucard17th?tab=repositories",
         "categorie": "Wordpress",
         "technologie": "Wordpress, PHP, MySQL"
+    },
+    {
+        "id": "8",
+        "name": "Gamely",
+        "description": "A games listing app for Gamers to discover new games and create collections.",
+        "Image" : "gamely.png",
+        "url" : "https://github.com/Alucard17th/gamely",
+        "categorie": "Javascript",
+        "technologie": "Nuxt, DynamoDB, Amplitude, Lambda, API Gateway"
+    },
+    {
+        "id": "9",
+        "name": "MusicAI",
+        "description": "A music generation app for Musicians to discover new music and create new tracks.",
+        "Image" : "musicai.png",
+        "url" : "https://github.com/Alucard17th/",
+        "categorie": "Javascript",
+        "technologie": "Nuxt, Firebase, Stripe"
     }
 ]

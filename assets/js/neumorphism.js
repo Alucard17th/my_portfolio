@@ -433,7 +433,8 @@ $(document).ready(function () {
             a.href = item.url;
             a.className = 'btn btn-primary btn-sm';
             a.textContent = 'Learn More';
-
+            a.target = '_blank';
+            
             cardBody.appendChild(span);
             cardBody.appendChild(h3);
             cardBody.appendChild(p);
@@ -540,6 +541,7 @@ $(document).ready(function () {
                 a.href = item.url;
                 a.className = 'btn btn-primary btn-sm';
                 a.textContent = 'Learn More';
+               
 
                 // Append elements to build the card
                 cardBody.appendChild(span);
